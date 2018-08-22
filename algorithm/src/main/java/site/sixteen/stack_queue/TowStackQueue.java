@@ -70,7 +70,7 @@ public class TowStackQueue<T> {
     }
 
     private void stackInToStackOut(){
-        if(stackOut.empty() && stackIn.empty()){
+        if(empty()){
             throw new RuntimeException("Queue is empty!");
         }else if(stackOut.empty()){
             while(!stackIn.empty()){
