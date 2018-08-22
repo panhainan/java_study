@@ -1,0 +1,3 @@
+TemplateMethod 介绍模板设计模式，源代码例子参考Thread的run和start方法
+
+RowHandler 和 RecordQuery 介绍策略模式，源代码例子参考Thread和Runnable
